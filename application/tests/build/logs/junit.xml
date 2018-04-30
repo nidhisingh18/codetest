@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="libraries" tests="3" assertions="4" failures="0" errors="0" time="0.019215">
+    <testsuite name="EmployeeTest" file="C:\xampp\htdocs\codeigniter\application\tests\libraries\EmployeeTest.php" tests="1" assertions="2" failures="0" errors="0" time="0.003165">
+      <testcase name="testget_details" class="EmployeeTest" file="C:\xampp\htdocs\codeigniter\application\tests\libraries\EmployeeTest.php" line="10" assertions="2" time="0.003165"/>
+    </testsuite>
+    <testsuite name="RemoteConnectTest" file="C:\xampp\htdocs\codeigniter\application\tests\libraries\RemoteConnectTest.php" tests="2" assertions="2" failures="0" errors="0" time="0.016050">
+      <testcase name="testConnectionIsValid" class="RemoteConnectTest" file="C:\xampp\htdocs\codeigniter\application\tests\libraries\RemoteConnectTest.php" line="10" assertions="1" time="0.014545"/>
+      <testcase name="testConnectionIsNotValid" class="RemoteConnectTest" file="C:\xampp\htdocs\codeigniter\application\tests\libraries\RemoteConnectTest.php" line="22" assertions="1" time="0.001505"/>
+    </testsuite>
+  </testsuite>
+</testsuites>
