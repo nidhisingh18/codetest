@@ -101,8 +101,7 @@
          description="Measure project size using PHPLOC and print human readable output. Intended for usage on the command line.">
   <exec executable="${phploc}" taskname="phploc">
    <arg value="--count-tests" />
-   <arg path="${basedir}/src" />
-   <arg path="${basedir}/tests" />
+   <arg path="${basedir}/application/tests" />
   </exec>
 
   <property name="phploc.done" value="true"/>
@@ -118,8 +117,7 @@
    <arg path="${basedir}/build/logs/phploc.csv" />
    <arg value="--log-xml" />
    <arg path="${basedir}/build/logs/phploc.xml" />
-   <arg path="${basedir}/src" />
-   <arg path="${basedir}/tests" />
+   <arg path="${basedir}/application/tests" />
   </exec>
 
   <property name="phploc.done" value="true"/>
@@ -191,7 +189,7 @@
    <arg value="--extensions=php" />
    <arg value="--ignore=autoload.php" />
    <arg path="${basedir}/src" />
-   <arg path="${basedir}/tests" />
+   <arg path="${basedir}/application/tests" />
   </exec>
 
   <property name="phpcs.done" value="true"/>
