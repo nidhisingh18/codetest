@@ -87,7 +87,7 @@
   <apply executable="php" taskname="lint">
    <arg value="-l" />
 
-   <fileset dir="${basedir}/tests">
+   <fileset dir="${basedir}/application/tests">
     <include name="**/*.php" />
     <modified />
    </fileset>
